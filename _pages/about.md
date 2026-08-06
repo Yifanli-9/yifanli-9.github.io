@@ -16,4 +16,4 @@ Research interests
 
 **Constraining future climate projections.** I work on emergent-constraint approaches that exploit localized spatiotemporal information — including spatially adaptive use of neighboring information — to reduce uncertainty in regional temperature projections.
 
-**Hydrological and coastal modeling.** My earlier work includes numerical modeling of swash-zone topography change on gravel beaches.
+**Land–river isotope processes.** I develop **ILS-iso**, the isotope-enabled version of the Integrated Land Simulator (ILS), which traces stable water isotopes through land surface and river routing processes and serves as the land component of MIROC6-ILS-iso.
