@@ -30,7 +30,7 @@ Honors & Awards
 
 Academic societies
 ======
-* American Geophysical Union (AGU)
+* American Geophysical Union (AGU), 2026 – present
 * European Geosciences Union (EGU), 2024 – present
 * Meteorological Society of Japan (MSJ), 2024 – present
 
