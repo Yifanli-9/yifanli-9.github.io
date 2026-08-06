@@ -8,4 +8,4 @@ date: 2023-12-01
 location: "San Francisco, CA, USA"
 ---
 
-Authors: Okazaki, A., **Y. Li**, K. Kino, A. Cauquoin, K. Yoshimura
+Okazaki, A., **Y. Li**, K. Kino, A. Cauquoin, K. Yoshimura

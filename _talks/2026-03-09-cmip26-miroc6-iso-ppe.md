@@ -8,4 +8,4 @@ date: 2026-03-09
 location: "Kyoto, Japan"
 ---
 
-Authors: **Li, Y.**, A. Cauquoin, A. Okazaki, K. Yoshimura
+**Li, Y.**, A. Cauquoin, A. Okazaki, K. Yoshimura

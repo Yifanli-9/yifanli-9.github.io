@@ -8,4 +8,4 @@ date: 2024-07-01
 location: "Sapporo, Japan"
 ---
 
-Authors: Okazaki, A., **Y. Li**, K. Kino, A. Cauquoin, K. Yoshimura
+Okazaki, A., **Y. Li**, K. Kino, A. Cauquoin, K. Yoshimura

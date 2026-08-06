@@ -7,4 +7,4 @@ venue: "第68回海岸工学講演会 (68th JSCE Conference on Coastal Engineeri
 date: 2021-11-01
 ---
 
-Authors: **Li, Y.**, Y. Tajima
+**Li, Y.**, Y. Tajima

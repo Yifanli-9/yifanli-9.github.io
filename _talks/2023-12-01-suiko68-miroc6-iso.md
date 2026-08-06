@@ -7,4 +7,4 @@ venue: "第68回水工学講演会 (68th JSCE Annual Conference on Hydraulic Eng
 date: 2023-12-01
 ---
 
-Authors: **Li, Y.**, A. Cauquoin, A. Okazaki, K. Yoshimura
+**Li, Y.**, A. Cauquoin, A. Okazaki, K. Yoshimura

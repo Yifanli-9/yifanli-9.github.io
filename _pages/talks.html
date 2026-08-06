@@ -11,6 +11,10 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+{% assign talks_by_year = site.talks | sort: 'date' | reverse | group_by_exp: 'item', "item.date | date: '%Y'" %}
+{% for year in talks_by_year %}
+  <h2 id="{{ year.name }}" class="archive__subtitle">{{ year.name }}</h2>
+  {% for post in year.items %}
+    {% include archive-single-talk.html %}
+  {% endfor %}
 {% endfor %}

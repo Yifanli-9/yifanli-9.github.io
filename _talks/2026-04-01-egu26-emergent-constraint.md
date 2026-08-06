@@ -8,4 +8,4 @@ date: 2026-04-01
 location: "Vienna, Austria"
 ---
 
-Authors: **Li, Y.**, A. Cauquoin, A. Okazaki, T. Nitta, K. Yoshimura
+**Li, Y.**, A. Cauquoin, A. Okazaki, T. Nitta, K. Yoshimura
