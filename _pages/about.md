@@ -11,7 +11,11 @@ Welcome! I am a researcher working on climate science and hydrological modeling.
 
 My research interests include climate projection, land surface and river modeling, and the application of machine learning to Earth system science.
 
-<!-- 把上面两段换成你自己的介绍。下面是编辑提示，改完可以整段删掉。 -->
+Honors & Awards
+======
+- **Matsuno Award (松野賞)**, Meteorological Society of Japan, 2024 — awarded for the presentation "Evaluation of the Isotope-enabled Fully Coupled Model MIROC6-iso" at the MSJ 2024 Autumn Meeting ([awardees list](https://www.metsoc.jp/about/awards/matsuno))
+
+<!-- 把上面的自我介绍换成你自己的。下面是编辑提示，改完可以整段删掉。 -->
 
 Editing this site
 ======
