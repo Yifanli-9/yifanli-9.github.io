@@ -7,6 +7,18 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% assign teaching_by_year = site.teaching | sort: 'date' | reverse | group_by_exp: 'item', "item.date | date: '%Y'" %}
+{% for year in teaching_by_year %}
+  <h2 id="{{ year.name }}" class="archive__subtitle">{{ year.name }}</h2>
+  {% for post in year.items %}
+    <div class="list__item">
+      <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+        <h2 class="archive__item-title" itemprop="headline">
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+        </h2>
+        <p class="page__meta">{{ post.venue }}{% if post.semester %} &middot; {{ post.semester }}{% endif %}</p>
+        {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
+      </article>
+    </div>
+  {% endfor %}
 {% endfor %}

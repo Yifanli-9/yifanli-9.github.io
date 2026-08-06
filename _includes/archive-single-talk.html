@@ -33,7 +33,13 @@
       {% endif %}
     </h2>
     {% if post.venue %}
-      <p class="page__meta">{% if post.type contains "Invited" %}<strong>Invited talk</strong> &middot; {% endif %}{{ post.venue }}{% if post.location and post.location != "" %} &middot; {{ post.location }}{% endif %} &middot; {{ post.date | date: '%B %Y' }}</p>
+      {% if post.type contains "Invited" or post.award %}
+      <p style="margin: 0.3em 0;">
+        {% if post.type contains "Invited" %}<span class="btn btn--warning btn--small" style="margin-right: 0.4em;">Invited talk</span>{% endif %}
+        {% if post.award %}<span class="btn btn--success btn--small">{{ post.award }}</span>{% endif %}
+      </p>
+      {% endif %}
+      <p class="page__meta">{{ post.venue }}{% if post.location and post.location != "" %} &middot; {{ post.location }}{% endif %} &middot; {{ post.date | date: '%B %Y' }}</p>
     {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
   </article>
