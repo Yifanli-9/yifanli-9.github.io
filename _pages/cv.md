@@ -22,7 +22,7 @@ Education
 
 Employment
 ======
-* **Chuo University**, Faculty of Science and Engineering — Apr 2025 – present
+* **Assistant Professor (助教)**, Faculty of Science and Engineering, Chuo University — Apr 2025 – present
 
 Honors & Awards
 ======

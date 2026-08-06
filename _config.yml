@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Yifan Li"
   pronouns         : # example: "she/her"
-  bio              : "Researcher in climate science and hydrological modeling"
-  location         :
-  employer         :
+  bio              : "Assistant Professor · Climate science and hydrological modeling"
+  location         : "Tokyo, Japan"
+  employer         : "Chuo University"
   uri              : # URL
   email            : "syaoplyf@gmail.com"
 
@@ -38,7 +38,7 @@ author:
   googlescholar    : # URL - e.g. "https://scholar.google.com/citations?user=XXXX"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : # URL - e.g. "https://orcid.org/0000-0000-0000-0000"
+  orcid            : "https://orcid.org/0009-0009-0782-5324"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL

@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a researcher working on climate science and hydrological modeling.
+Welcome! I am an Assistant Professor at Chuo University, working on climate science and hydrological modeling.
 
 My research interests include climate projection, land surface and river modeling, and the application of machine learning to Earth system science.
 
