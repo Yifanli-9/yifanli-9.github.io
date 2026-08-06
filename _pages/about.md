@@ -17,3 +17,7 @@ Research interests
 **Constraining future climate projections.** I work on emergent-constraint approaches that exploit localized spatiotemporal information — including spatially adaptive use of neighboring information — to reduce uncertainty in regional temperature projections.
 
 **Land–river isotope processes.** I develop **ILS-iso**, the isotope-enabled version of the Integrated Land Simulator (ILS), which traces stable water isotopes through land surface and river routing processes and serves as the land component of MIROC6-ILS-iso.
+
+Honors & Awards
+======
+- **Matsuno Award (松野賞)**, Meteorological Society of Japan, 2024 — awarded for the presentation "Evaluation of the Isotope-enabled Fully Coupled Model MIROC6-iso" at the MSJ 2024 Autumn Meeting ([awardees list](https://www.metsoc.jp/about/awards/matsuno))
