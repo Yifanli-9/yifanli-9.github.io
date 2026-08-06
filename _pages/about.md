@@ -7,17 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am an Assistant Professor in the Faculty of Science and Engineering at Chuo University, Tokyo. My research lies at the intersection of climatology, hydrology, and isotope geochemistry, with a focus on developing and applying isotope-enabled climate models.
+Welcome! I am an Assistant Professor in the Faculty of Science and Engineering at Chuo University, Tokyo. My research interests include climatology, hydrology, and isotope geochemistry.
 
 Research interests
 ======
 
-**Isotope-enabled climate modeling.** I develop and evaluate **MIROC6-iso**, the isotope-enabled version of the fully coupled climate model MIROC6, and use stable water isotopes such as δ18Osw to understand atmosphere–ocean interaction and ENSO variability. I am currently extending the model toward **MIROC6-ILS-iso** for an enhanced representation of land–river isotope processes, and I contribute to the community Water Isotope Model Intercomparison Project (WisoMIP).
+**Isotope-enabled climate modeling.** I develop and evaluate MIROC6-iso, the isotope-enabled version of the fully coupled climate model MIROC6, and use stable water isotopes to study climate variability such as ENSO. I also contribute to the Water Isotope Model Intercomparison Project (WisoMIP).
 
-**Constraining future climate projections.** I work on emergent-constraint approaches that exploit localized spatiotemporal information — including spatially adaptive use of neighboring information — to reduce uncertainty in regional temperature projections.
+**Land and river isotope processes.** I develop ILS-iso, the isotope-enabled version of the Integrated Land Simulator (ILS), toward the coupled model MIROC6-ILS-iso.
 
-**Land–river isotope processes.** I develop **ILS-iso**, the isotope-enabled version of the Integrated Land Simulator (ILS), which traces stable water isotopes through land surface and river routing processes and serves as the land component of MIROC6-ILS-iso.
+**Constraining future climate projections.** I work on emergent constraint methods to reduce uncertainty in regional climate projections.
 
 Honors & Awards
 ======
-- **Matsuno Award (松野賞)**, Meteorological Society of Japan, 2024 — awarded for the presentation "Evaluation of the Isotope-enabled Fully Coupled Model MIROC6-iso" at the MSJ 2024 Autumn Meeting ([awardees list](https://www.metsoc.jp/about/awards/matsuno))
+- **Matsuno Award (松野賞)**, Meteorological Society of Japan, 2024 ([awardees list](https://www.metsoc.jp/about/awards/matsuno))
