@@ -9,4 +9,4 @@ date: 2026-10-01
 location: "Tokyo, Japan"
 ---
 
-**In charge of the hydraulics section.** Wednesdays, periods 3–4. Seminar led by Prof. Tomoko Nitta and Prof. Tetsuya Mishima.
+**Lecturer for the hydraulics section.** Wednesdays, periods 3–4. Seminar led by Prof. Tomoko Nitta and Prof. Tetsuya Mishima.
