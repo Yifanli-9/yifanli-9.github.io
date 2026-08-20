@@ -17,8 +17,8 @@ Education
 * **M.Eng.**, The University of Tokyo, 2021
   * Department of Civil Engineering, Graduate School of Engineering (Apr 2019 – Sep 2021)
   * Thesis: *Numerical modeling of the swash zone topography change of the gravel beach*
-* **B.Eng. in Naval and Ocean Engineering**, Tianjin University, 2018
-  * School of Civil Engineering (Sep 2014 – Sep 2018)
+* **B.Eng. in Civil Engineering**, Tianjin University, 2018
+  * School of Civil Engineering (Sep 2014 – Jul 2018)
 
 Employment
 ======
