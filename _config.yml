@@ -23,7 +23,7 @@ repository               : "Yifanli-9/yifanli-9.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Yifan Li"
   pronouns         : # example: "she/her"
   bio              : "Assistant Professor · Isotope-enabled climate modeling, hydrology & climate projection"
