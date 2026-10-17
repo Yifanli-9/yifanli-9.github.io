@@ -6,6 +6,7 @@ type: "Oral presentation"
 permalink: /talks/2027-05-10-isotope-hydrology-tritium
 venue: "International Symposium on Isotope Hydrology – Shaping the Future of Water: Tracers to Trends"
 date: 2027-05-10
+date_precision: month
 location: "Vienna, Austria"
 status: "Accepted for oral presentation"
 ---
