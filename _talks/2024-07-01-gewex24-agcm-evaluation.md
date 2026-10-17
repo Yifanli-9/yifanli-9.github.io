@@ -1,6 +1,7 @@
 ---
 title: "Evaluation of a newly developed isotope-enabled AGCM MIROC6-iso under the present climate"
 collection: talks
+first_author: false
 type: "Conference presentation"
 permalink: /talks/2024-07-01-gewex24-agcm-evaluation
 venue: "9th GEWEX Open Science Conference"

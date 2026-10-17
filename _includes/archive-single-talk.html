@@ -39,7 +39,7 @@
         {% if post.award %}<span class="btn btn--success btn--small">{{ post.award }}</span>{% endif %}
       </p>
       {% endif %}
-      <p class="page__meta">{{ post.venue }}{% if post.location and post.location != "" %} &middot; {{ post.location }}{% endif %} &middot; {{ post.date | date: '%B %Y' }}</p>
+      <p class="page__meta">{{ post.venue }}{% if post.location and post.location != "" %} &middot; {{ post.location }}{% endif %} &middot; {% if post.date_precision == 'year' %}{{ post.date | date: '%Y' }}{% else %}{{ post.date | date: '%B %Y' }}{% endif %}{% if post.status %} &middot; {{ post.status }}{% endif %}</p>
     {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
   </article>

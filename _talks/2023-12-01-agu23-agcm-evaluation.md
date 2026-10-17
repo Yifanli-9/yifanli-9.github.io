@@ -1,6 +1,7 @@
 ---
 title: "Evaluation of a newly developed isotope-enabled AGCM MIROC6-iso under the present climate"
 collection: talks
+first_author: false
 type: "Conference presentation"
 permalink: /talks/2023-12-01-agu23-agcm-evaluation
 venue: "AGU Fall Meeting 2023"

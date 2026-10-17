@@ -11,10 +11,26 @@ author_profile: true
 
 {% endif %}
 
-{% assign talks_by_year = site.talks | sort: 'date' | reverse | group_by_exp: 'item', "item.date | date: '%Y'" %}
+{% assign sorted_talks = site.talks | sort: 'date' | reverse %}
+<h2 id="featured" class="archive__subtitle">Invited talks and awards</h2>
+{% for post in sorted_talks %}
+  {% if post.type contains 'Invited' or post.award %}
+    {% include archive-single-talk.html %}
+  {% endif %}
+{% endfor %}
+
+{% assign regular_talks = sorted_talks | where_exp: 'item', 'item.award == nil' | where_exp: 'item', "item.type != 'Invited talk'" %}
+{% assign talks_by_year = regular_talks | group_by_exp: 'item', "item.date | date: '%Y'" %}
 {% for year in talks_by_year %}
   <h2 id="{{ year.name }}" class="archive__subtitle">{{ year.name }}</h2>
   {% for post in year.items %}
-    {% include archive-single-talk.html %}
+    {% unless post.first_author == false %}
+      {% include archive-single-talk.html %}
+    {% endunless %}
+  {% endfor %}
+  {% for post in year.items %}
+    {% if post.first_author == false %}
+      {% include archive-single-talk.html %}
+    {% endif %}
   {% endfor %}
 {% endfor %}
