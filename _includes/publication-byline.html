@@ -1,0 +1,41 @@
+{% assign paper = include.paper %}
+{% assign author_count = paper.authors | size %}
+{% if paper.author_position %}
+  <p class="publication__role">
+    <span class="publication__badge">
+      {% if paper.author_position == 1 %}
+        First author
+      {% else %}
+        {% assign last_two_digits = paper.author_position | modulo: 100 %}
+        {% assign last_digit = paper.author_position | modulo: 10 %}
+        {{ paper.author_position }}{% if last_two_digits == 11 or last_two_digits == 12 or last_two_digits == 13 %}th{% elsif last_digit == 1 %}st{% elsif last_digit == 2 %}nd{% elsif last_digit == 3 %}rd{% else %}th{% endif %} author · {{ author_count }} authors
+      {% endif %}
+    </span>
+  </p>
+{% endif %}
+{% unless include.role_only %}
+  <p class="publication__authors">
+    {%- assign previous_author_index = -1 -%}
+    {%- for author in paper.authors -%}
+      {%- if author_count <= 8 or forloop.index <= 3 or author == site.author.name or forloop.last -%}
+        {%- unless previous_author_index == -1 -%}
+          {%- assign author_gap = forloop.index0 | minus: previous_author_index -%}
+          {%- if author_gap > 1 -%}, …, {% else %}, {% endif %}
+        {%- endunless -%}
+        {%- if author == site.author.name -%}<strong>{{ author | escape }}</strong>{%- else -%}{{ author | escape }}{%- endif -%}
+        {%- assign previous_author_index = forloop.index0 -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </p>
+  {% if author_count > 8 %}
+    <details class="publication__all-authors">
+      <summary>All {{ author_count }} authors</summary>
+      <p>
+        {%- for author in paper.authors -%}
+          {%- unless forloop.first -%}, {% endunless %}
+          {%- if author == site.author.name -%}<strong>{{ author | escape }}</strong>{%- else -%}{{ author | escape }}{%- endif -%}
+        {%- endfor -%}
+      </p>
+    </details>
+  {% endif %}
+{% endunless %}

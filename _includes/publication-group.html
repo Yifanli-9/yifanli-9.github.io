@@ -1,0 +1,14 @@
+{% assign first_author_group = include.papers | where: 'author_position', 1 %}
+{% assign coauthor_group = include.papers | where_exp: 'paper', 'paper.author_position != 1' %}
+{% if first_author_group.size > 0 %}
+  <h3 class="archive__subtitle publication__group">First-author papers</h3>
+  {% for post in first_author_group %}
+    {% include publication-card.html %}
+  {% endfor %}
+{% endif %}
+{% if coauthor_group.size > 0 %}
+  <h3 class="archive__subtitle publication__group">Co-authored papers</h3>
+  {% for post in coauthor_group %}
+    {% include publication-card.html %}
+  {% endfor %}
+{% endif %}

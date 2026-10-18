@@ -36,7 +36,8 @@ Academic societies
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+  {% include publication-order.html %}
+  <ul>{% for post in ordered_publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 

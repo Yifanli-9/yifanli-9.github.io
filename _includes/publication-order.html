@@ -1,0 +1,5 @@
+{% comment %}Within each authorship group, lower journal_priority comes first; ties use newest first.{% endcomment %}
+{% assign publications_by_priority = site.publications | sort: 'date' | reverse | sort: 'journal_priority' %}
+{% assign first_author_publications = publications_by_priority | where: 'author_position', 1 %}
+{% assign coauthored_publications = publications_by_priority | where_exp: 'paper', 'paper.author_position != 1' %}
+{% assign ordered_publications = first_author_publications | concat: coauthored_publications %}

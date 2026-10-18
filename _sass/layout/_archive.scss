@@ -66,6 +66,50 @@
   }
 }
 
+/* Publication authorship is visible in the list, CV, and individual paper pages. */
+.publication__item {
+  margin-bottom: 1.6em;
+
+  .archive__item-title {
+    font-size: 1.1em;
+    line-height: 1.4;
+  }
+}
+
+.publication__role {
+  margin: 0.4em 0;
+}
+
+.publication__badge {
+  display: inline-block;
+  padding: 0.15em 0.65em;
+  border: 1px solid var(--global-border-color);
+  border-radius: 1em;
+  font-size: 0.75em;
+  font-weight: 600;
+}
+
+.publication__authors,
+.publication__venue,
+.publication__links,
+.publication__all-authors {
+  margin: 0.35em 0;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.publication__all-authors {
+  summary {
+    width: fit-content;
+    cursor: pointer;
+    color: var(--global-link-color);
+  }
+
+  p {
+    margin: 0.5em 0;
+  }
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
