@@ -1,15 +1,9 @@
 {% assign paper = include.paper %}
 {% assign author_count = paper.authors | size %}
-{% if paper.author_position %}
+{% if paper.author_position == 1 %}
   <p class="publication__role">
     <span class="publication__badge">
-      {% if paper.author_position == 1 %}
-        First author
-      {% else %}
-        {% assign last_two_digits = paper.author_position | modulo: 100 %}
-        {% assign last_digit = paper.author_position | modulo: 10 %}
-        {{ paper.author_position }}{% if last_two_digits == 11 or last_two_digits == 12 or last_two_digits == 13 %}th{% elsif last_digit == 1 %}st{% elsif last_digit == 2 %}nd{% elsif last_digit == 3 %}rd{% else %}th{% endif %} author · {{ author_count }} authors
-      {% endif %}
+      First{% if paper.corresponding_author %} &amp; corresponding{% endif %} author
     </span>
   </p>
 {% endif %}

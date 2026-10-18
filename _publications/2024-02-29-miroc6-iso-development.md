@@ -11,6 +11,7 @@ authors:
   - Atsushi Okazaki
   - Kei Yoshimura
 author_position: 1
+corresponding_author: true
 journal_priority: 40
 paperurl: 'https://doi.org/10.2208/journalofjsce.23-16035'
 citation: '<strong>Yifan Li</strong>, Alexandre Cauquoin, Atsushi Okazaki, Kei Yoshimura (2024). &quot;Development of the isotope version of the fully coupled climate model MIROC6-iso.&quot; <i>Journal of JSCE</i>, 12(2).'
