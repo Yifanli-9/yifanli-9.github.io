@@ -67,6 +67,10 @@
 }
 
 /* Publication authorship is visible in the list, CV, and individual paper pages. */
+.publication__group {
+  color: var(--global-text-color);
+}
+
 .publication__item {
   margin-bottom: 1.6em;
 
