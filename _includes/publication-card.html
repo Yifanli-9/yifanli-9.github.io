@@ -5,11 +5,12 @@
     </h4>
     {% include publication-byline.html paper=post %}
     <p class="publication__venue"><i>{{ post.venue }}</i>, {{ post.date | date: '%Y' }}{% if post.status == 'accepted' %} · <strong>Accepted for publication</strong>{% endif %}</p>
-    {% if post.paperurl or post.slidesurl or post.bibtexurl %}
+    {% if post.publication_note %}<p class="publication__venue">{{ post.publication_note }}</p>{% endif %}
+    {% if post.doi or post.paperurl or post.slidesurl or post.bibtexurl %}
       <p class="publication__links">
-        {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
-        {% if post.slidesurl %}{% if post.paperurl %} · {% endif %}<a href="{{ post.slidesurl }}">Slides</a>{% endif %}
-        {% if post.bibtexurl %}{% if post.paperurl or post.slidesurl %} · {% endif %}<a href="{{ post.bibtexurl }}">BibTeX</a>{% endif %}
+        {% if post.doi %}DOI: <a href="https://doi.org/{{ post.doi | escape }}">{{ post.doi | escape }}</a>{% elsif post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
+        {% if post.slidesurl %}{% if post.doi or post.paperurl %} · {% endif %}<a href="{{ post.slidesurl }}">Slides</a>{% endif %}
+        {% if post.bibtexurl %}{% if post.doi or post.paperurl or post.slidesurl %} · {% endif %}<a href="{{ post.bibtexurl }}">BibTeX</a>{% endif %}
       </p>
     {% endif %}
   </article>
